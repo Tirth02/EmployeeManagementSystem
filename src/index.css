@@ -13,3 +13,7 @@ body
 {
   display: none;
 }
+
+#taskdateid::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
